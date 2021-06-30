@@ -2,7 +2,8 @@
 #include <assert.h>
 #include <string.h>
 #include <cs50.h>
-#include<ctype.h>
+#include <ctype.h>
+
 string ari(string s)
 {
 	int i = 0;
@@ -55,5 +56,4 @@ string ari(string s)
 		break;
 	}
 	return " ";
-
 }
