@@ -2,7 +2,9 @@
 #include <assert.h>
 #include <string.h>
 #include <cs50.h>
-#include <ctype.h>
+#include<ctype.h>
+
+
 
 string ari(string s)
 {
@@ -17,7 +19,7 @@ string ari(string s)
 			count1++;
 		if (s[i] == ' ')
 			count2++;
-		if (s[i] == '.' || s[i] == '?' || s[i] == !)
+		if (s[i] == '.' || s[i] == '?' || s[i] == '!')
 			count3++;
 	}
 	t = 4.71 * (count1 / count2) + 0.5 * (count2 / count3) - 21.43;
@@ -56,4 +58,5 @@ string ari(string s)
 		break;
 	}
 	return " ";
+
 }
